@@ -6,10 +6,8 @@ body {
 	margin: 0 auto;
 }
 
-img {/*
-	width: auto;
-	max-width: 50%;
-	height: 50%;*/
+img {
+	width: 30%;
 	border: 1px solid #021a40;
 }
 
@@ -36,6 +34,10 @@ p {
 }
 
 #quick-summary p {
+	text-align: center;
+}
+
+#quotes p {
 	text-align: center;
 }
 
