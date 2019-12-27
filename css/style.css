@@ -3,11 +3,12 @@ html {
 }
 
 body {
-	font-family: Monospace, Courier;
+	font-family: Verdana, Courier, Mono;
 	max-width: 1024px; /* normal screens */
 	padding-left: 2ch;
 	padding-right: 3ch;
 	margin: 0 auto;
+	background-color: #F7F6CD;
 }
 
 img {
@@ -33,12 +34,27 @@ a {
 
 p {
 	margin-top: 0px;
-    margin-bottom: 25pt;
+	margin-bottom: 25pt;
 	text-align: justify;
 }
 
-#menu {
-	text-align: center
+header {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+	padding: 2px;
+	display: inline;
 }
 
 #quick-summary p {
@@ -53,6 +69,10 @@ img.centered {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+header, nav {
+	font-family: Courier;
 }
 
 /*
